@@ -77,7 +77,7 @@
 							<img src="css/images/icone ambu2.png" alt="" />
 							<div class="col-cnt">
 								<h2>Demande de transport non urgent</h2>
-								<a href="#" class="more">Entrer</a>
+								<a href="demandeTransport.jsp" class="more">Entrer</a>
 							</div>
 						</div>
 						<div class="col">
@@ -91,7 +91,7 @@
 							<img src="css/images/icone hopital.png" alt="" />
 							<div class="col-cnt">
 								<h2>Nouveau établissement de santé </h2>
-								<a href="#" class="more">Entrer</a>
+								<a href="" class="more">Entrer</a>
 							</div>
 						</div>
 						
