@@ -60,21 +60,29 @@
 				<!-- end of slider -->
 				<!-- main -->
 				<div class="main">
+					<nav id ="navigation">
+					<ul>
+						
+						<li class="active"><a href="demandeTransport.jsp"  >Demande de transport non urgent</a></li>
+						<li class="active"><a style="color: #8A0808">Nouveau établissement de santé</a></li>
+				</ul></nav>
 				
 					<section class="cols" align="center">
 							<div align='center'>
 		<h3 style="font-size: 30px">Formulaire Création Établissement</h3><br>
 		<img src="css/images/icone hopital.png" alt="" />
 		
-	<form class= "form1" action="etablissement.html" method="POST" style="width:500px;height:200px;font-size:20px" >
-	
-		<label>Nom Établissement:</label><input type="text" id="nom_etablissement" name="nom_etablissement" value="${dataErrors.data.nom}" placeholder="indiquer le nom de l'établissement">${dataErrors.errors.nom}  <br>
+	<form class= "form1" action="etablissement.html" method="POST" style="width:500px;height:250px;font-size:20px" >
+	      <br>
+		<label>Numéro de Finesse:</label> <input id="tel" name="tel" value="${dataErrors.data.tel}" placeholder="...............................................">${dataErrors.errors.tel} <br>
 		<br>
-		<label>Adresse:</label><input id="adresse" name="adresse" value="${dataErrors.data.adresse}" placeholder="indiquer l'adresse de l'établissement">${dataErrors.errors.adresse} <br>
+		<label>Nom Établissement:</label><input type="text" id="nom_etablissement" name="nom_etablissement" value="${dataErrors.data.nom}" placeholder="....................................">${dataErrors.errors.nom}  <br>
 		<br>
-		<label>Email:</label><input id="email" name="email" value="${dataErrors.data.email}" placeholder="indiquer l'Email de l'établissement">${dataErrors.errors.email} <br>
+		<label>Adresse:</label><input id="adresse" name="adresse" value="${dataErrors.data.adresse}" placeholder="..................................">${dataErrors.errors.adresse} <br>
 		<br>
-		<label>Téléphone:</label> <input id="tel" name="tel" value="${dataErrors.data.tel}" placeholder="indiquer le numéro de Tel de l'établissement">${dataErrors.errors.tel} <br>
+		<label>Email:</label><input id="email" name="email" value="${dataErrors.data.email}" placeholder=".......................................">${dataErrors.errors.email} <br>
+		<br>
+		<label>Téléphone:</label> <input id="tel" name="tel" value="${dataErrors.data.tel}" placeholder=".............................................">${dataErrors.errors.tel} <br>
 		<br>
 		<button type="submit" name="submit">Créer</button>
 	</form>

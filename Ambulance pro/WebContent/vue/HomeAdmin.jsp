@@ -78,25 +78,28 @@
 				<div class="main">
 				
 					<section class="cols">
-						<div class="col">
-							<img src="css/images/compte utilis.png" alt="" />
-							<div class="col-cnt">
-								<h2>Gestion des comptes utilisateurs</h2>
-								<a href="#" class="more">Entrer</a>
-							</div>
-						</div>
+						
 						<div class="col">
 							<img src="css/images/icone personnel.png" alt="" />
 							<div class="col-cnt">
 								<h2>Gestion du personnel</h2>
-								<a href="#" class="more">Entrer</a>
+								<a href="GestionPersonnel.jsp" class="more">Entrer</a>
 							</div>
 						</div>
+							<div class="col">
+							
+							<div class="col-cnt">
+								<h2></h2>
+								
+							</div>
+						</div>
+						
+						
 						<div class="col">
 							<img src="css/images/iconemateriel.png" alt="" />
 							<div class="col-cnt">
-							    <h2>Gestion du matériel</h2>
-								<a href="#" class="more"> Entrer </a>
+							    <h2>Gestion du matériel / véhicule</h2>
+								<a href="GestionMateriel.jsp" class="more"> Entrer </a>
 							</div>
 						</div>
 						<div class="cl">&nbsp;</div>

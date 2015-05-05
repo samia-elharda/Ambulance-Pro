@@ -61,12 +61,18 @@
 				<!-- main -->
 				<div class="main">
 				
+				<nav id ="navigation"> 
+				
+				<ul>
+						<li class="active"><a style="color: #8A0808" >Demande de transport non urgent</a></li>
+						<li class="active"><a href="etablissement.jsp">Nouveau établissement de santé</a></li>
+				</ul></nav>
 					<section class="cols" align="center">
 							<div align='center'>
 							
 		<h3 style="font-size: 30px">Formulaire Création Demande de Transport</h3><br>
 		<img src="css/images/icone ambu2.png" alt="" />
-		<form class="form1" method="POST" action="demandeTransport.html" style="width:800px;height:500px;font-size:20px">
+		<form class="form1" method="POST" action="demandeTransport.html" style="width:800px;height:350px;font-size:20px">
 		<br>
 			<label>Etablissement</label>
 			<select id="etablissement" name="etablissement">
@@ -115,15 +121,15 @@
 			</select>${dataErrors.errors.time}
 			<br>
 			<br>
-			<label>Adresse Départ:</label><input type="text" id="adresse_deb" name="adresse_deb" value="${dataErrors.data.adresse_deb }" placeholder="indiquer l'adresse de départ">${dataErrors.errors.adresse_deb} <br>
+			<label>Adresse Départ:</label><input type="text" id="adresse_deb" name="adresse_deb" value="${dataErrors.data.adresse_deb }" placeholder=".........................">${dataErrors.errors.adresse_deb} <br>
 			<br>
-			<label>Adresse D'arrivé:</label><input id="adresse_fin" name="adresse_fin" value="${dataErrors.data.adresse_fin }" placeholder="indiquer l'adresse de fin">${dataErrors.errors.adresse_fin} <br>
+			<label>Adresse D'arrivé:</label><input id="adresse_fin" name="adresse_fin" value="${dataErrors.data.adresse_fin }" placeholder="...........................">${dataErrors.errors.adresse_fin} <br>
 			<br>
-			<label>Nom malade:</label><input id="nom_malade" name="nom_malade" value="${dataErrors.data.nom_malade }" placeholder="indiquer le nom du malade">${dataErrors.errors.nom_malade} <br>
+			<label>Nom malade:</label><input id="nom_malade" name="nom_malade" value="${dataErrors.data.nom_malade }" placeholder="..................................">${dataErrors.errors.nom_malade} <br>
 			<br>
-			<label>Prénom malade:</label> <input id="prenom_malade" name="prenom_malade" value="${dataErrors.data.prenom_malade }" placeholder="indiquer le prénom du malade">${dataErrors.errors.prenom_malade} <br>
+			<label>Prénom malade:</label> <input id="prenom_malade" name="prenom_malade" value="${dataErrors.data.prenom_malade }" placeholder=".......................">${dataErrors.errors.prenom_malade} <br>
 			<br>
-			<label>Adresse malade:</label> <input id="adresse_malade" name="adresse_malade" value="${dataErrors.data.adresse_malade }" placeholder="indiquer l'adresse du malade">${dataErrors.errors.adresse_malade} <br>
+			<label>Adresse malade:</label> <input id="adresse_malade" name="adresse_malade" value="${dataErrors.data.adresse_malade }" placeholder="...............................">${dataErrors.errors.adresse_malade} <br>
 			<br>
 			<button type="submit" name="submit">Créer</button>
 		</form>

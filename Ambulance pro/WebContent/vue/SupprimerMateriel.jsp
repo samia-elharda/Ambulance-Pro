@@ -48,7 +48,7 @@
 				<nav id="navigation">
 					<a href="#" class="nav-btn">HOME<span class="arr"></span></a>
 					<ul>
-						<li class="active"><a href="HomeAdmin.jsp">HOME</a></li>
+						<li class="active"><a href="GestionMateriel.jsp">HOME</a></li>
 						<li><a href="#">Se deconnecter</a></li>
 					
 						
@@ -64,21 +64,21 @@
 					<section class="cols" align="center">
 							<div align='center'>
 							
-		<h3 style="font-size: 30px">Gestion du Matériel Médicale</h3><br>
+		<h3 style="font-size: 30px">Gestion du Matériel Médicale / Véhicule</h3><br>
 		
 		<br><br><br>
 		<section class="cols"  >
 		 <div class="col">
 		 <div class="col-cnt"> 
-		 <h2 >Ajouter Matériel </h2> 
+		 <h2 >Ajouter Matériel / Véhicule</h2> 
 		 <a href="AjouterMateriel.jsp" class="more">Entrer</a> 
 		 </div> </div> 
 		 <div class="col"> <div class="col-cnt">
-		  <h2 style="color: #A4A4A4">Supprimer Matériel</h2>
+		  <h2 style="color: #A4A4A4">Supprimer Matériel / Véhicule</h2>
 		
 		 </div> </div> 
 		 <div class="col"> <div class="col-cnt"> 
-		 <h2>Modifier Matériel</h2> 
+		 <h2>Modifier Matériel / Véhicule</h2> 
 		 <a href="ModifierMateriel.jsp" class="more"> Entrer </a> 
 		 </div> </div>
 		  <div class="cl">&nbsp;</div> 
@@ -108,7 +108,7 @@
 			</select> ${dataErrors.errors.etablissement} 
 			<br><br>
 		
-		<label>Déscription:</label><input id="adresse_fin" name="adresse_fin" value="${dataErrors.data.adresse_fin }" placeholder="indiquer l'adresse de fin">${dataErrors.errors.adresse_fin} <br>
+		<label>Déscription:</label><input id="adresse_fin" name="adresse_fin" value="${dataErrors.data.adresse_fin }" placeholder="">${dataErrors.errors.adresse_fin} <br>
 			<br>
 	<br>
 			<button type="submit" name="submit" style="border-bottom-style:groove;" > VALIDER </button>

@@ -48,7 +48,7 @@
 				<nav id="navigation">
 					<a href="#" class="nav-btn">HOME<span class="arr"></span></a>
 					<ul>
-						<li class="active"><a href="HomeAdmin.jsp">HOME</a></li>
+						<li class="active"><a href="GestionMateriel.jsp">HOME</a></li>
 						<li><a href="#">Se deconnecter</a></li>
 					
 						
@@ -64,33 +64,33 @@
 					<section class="cols" align="center">
 							<div align='center'>
 							
-		<h3 style="font-size: 30px">Gestion du Matériel Médicale</h3><br>
+		<h3 style="font-size: 30px">Gestion du Matériel Médical / Véhicule</h3><br>
 		
 		<br><br><br>
 		<section class="cols"  >
 		 <div class="col">
 		 <div class="col-cnt"> 
-		 <h2 >Ajouter Matériel </h2> 
+		 <h2 >Ajouter Matériel / Véhicule</h2> 
 		<a href="AjouterMateriel.jsp" class="more"> Entrer </a> 
 		 </div> </div> 
 		 <div class="col"> <div class="col-cnt">
-		  <h2>Supprimer Matériel</h2>
+		  <h2>Supprimer Matériel / Véhicule</h2>
 		 <a href="SupprimerMatriel.jsp" class="more">Entrer</a> 
 		 </div> </div> 
 		 <div class="col"> <div class="col-cnt"> 
-		 <h2 style="color: #A4A4A4">Modifier Matériel</h2> 
+		 <h2 style="color: #A4A4A4">Modifier Matériel / Véhicule</h2> 
 		 
 		 </div> </div>
 		  <div class="cl">&nbsp;</div> 
 		  </section>
 	
 			
-<td colspan="2" align="center"  > <i>Les Données s'afficheront en choisissant le matériel conserné (apres vous pouvez les modifier )</i></td> 
+<td colspan="2" align="center"  > <i>Les Données s'afficheront en choisissant le matériel/véhicule concerné (apres vous pouvez les modifier )</i></td> 
 
 <form class="form1" method="POST" action="demandeTransport.html" style="width:800px;height:200px;font-size:20px">
 		<br>
 <br>
-		<label>Materiel</label>
+		<label>Matériel / Véhicule</label>
 		
 			<select id="etablissement" name="etablissement">
 				<option value="">Veuillez choisir un matériel</option>
@@ -106,11 +106,11 @@
 				</c:forEach>
 			</select> ${dataErrors.errors.etablissement} 
 			<br><br>
-			<label>ID:</label><input type="text" id="adresse_deb" name="adresse_deb" value="${dataErrors.data.adresse_deb }" placeholder="indiquer l'adresse de départ">${dataErrors.errors.adresse_deb} <br>
+			<label>ID:</label><input type="text" id="adresse_deb" name="adresse_deb" value="${dataErrors.data.adresse_deb }" placeholder="">${dataErrors.errors.adresse_deb} <br>
 			<br>
-			<label>Nom:</label><input type="text" id="adresse_deb" name="adresse_deb" value="${dataErrors.data.adresse_deb }" placeholder="indiquer l'adresse de départ">${dataErrors.errors.adresse_deb} <br>
+			<label>Nom:</label><input type="text" id="adresse_deb" name="adresse_deb" value="${dataErrors.data.adresse_deb }" placeholder="">${dataErrors.errors.adresse_deb} <br>
 			<br>
-			<label>Déscription:</label><input id="adresse_fin" name="adresse_fin" value="${dataErrors.data.adresse_fin }" placeholder="indiquer l'adresse de fin">${dataErrors.errors.adresse_fin} <br>
+			<label>Déscription:</label><input id="adresse_fin" name="adresse_fin" value="${dataErrors.data.adresse_fin }" placeholder="">${dataErrors.errors.adresse_fin} <br>
 			<br>
 			<button type="submit" name="submit" style="border-bottom-style:groove;" > VALIDER </button>
 		</form>

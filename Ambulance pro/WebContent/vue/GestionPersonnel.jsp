@@ -64,9 +64,8 @@
 				<nav id ="navigation"> 
 				
 				<ul>
-				<li class="active"><a href="GestionDesUsers.jsp">Gestion des comptes utilisateurs</a></li>
-						<li class="active"><a style="color: #8A0808">Gestion du personnel</a></li>
-						<li class="active"><a  >Gestion du materiel</a></li>
+						<li class="active"><a style="color: #8A0808" >Gestion du personnel</a></li>
+						<li class="active"><a  href="GestionMateriel.jsp">Gestion du matériel / véhicule</a></li>
 				</ul></nav>
 				
 					<section class="cols" align="center">
@@ -74,22 +73,22 @@
 							
 							<br>
 							
-		<h3 style="font-size: 30px">Gestion du Matériel Médicale</h3><br>
+		<h3 style="font-size: 30px">Gestion du Personnel</h3><br>
 	
-		<img width="200" height="200" src="css/images/iconemateriel.png" alt="" />
+		<img width="200" height="200" src="css/images/icone personnel.png" alt="" />
 		<br><br><br><br>
 		<section class="cols"  >
 		 <div class="col">
 		 <div class="col-cnt"> 
-		 <h2>Ajouter Matériel </h2> 
+		 <h2>Ajouter Personnel </h2> 
 		 <a href="AjouterMateriel.jsp" class="more">Entrer</a> 
 		 </div> </div> 
 		 <div class="col"> <div class="col-cnt">
-		  <h2>Supprimer Matériel</h2>
+		  <h2>Supprimer Personnel</h2>
 		 <a href="SupprimerMateriel.jsp" class="more">Entrer</a> 
 		 </div> </div> 
 		 <div class="col"> <div class="col-cnt"> 
-		 <h2>Modifier Matériel</h2> 
+		 <h2>Modifier Personnel</h2> 
 		 <a href="ModifierMateriel.jsp" class="more"> Entrer </a> 
 		 </div> </div>
 		  <div class="cl">&nbsp;</div> 
